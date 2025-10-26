@@ -1,0 +1,132 @@
+{
+  "version": "1.0.0",
+  "exportDate": "2024-01-15T10:30:00.000Z",
+  "studySessions": [
+    {
+      "id": "1642234200000",
+      "subjectId": "math_101",
+      "startTime": "2024-01-15T09:00:00.000Z",
+      "endTime": "2024-01-15T09:25:00.000Z",
+      "duration": 25,
+      "type": "pomodoro",
+      "notes": "Worked on calculus derivatives",
+      "xpEarned": 10,
+      "isCompleted": true
+    },
+    {
+      "id": "1642237800000",
+      "subjectId": "physics_201",
+      "startTime": "2024-01-15T10:00:00.000Z",
+      "endTime": "2024-01-15T11:30:00.000Z",
+      "duration": 90,
+      "type": "regular",
+      "notes": "Quantum mechanics chapter review",
+      "xpEarned": 9,
+      "isCompleted": true
+    }
+  ],
+  "subjects": [
+    {
+      "id": "math_101",
+      "name": "Mathematics",
+      "description": "Calculus and Algebra",
+      "colorValue": 4280391411,
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "totalStudyTime": 150,
+      "totalSessions": 6,
+      "isActive": true
+    },
+    {
+      "id": "physics_201",
+      "name": "Physics",
+      "description": "Quantum Mechanics and Thermodynamics",
+      "colorValue": 4294198070,
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "totalStudyTime": 200,
+      "totalSessions": 4,
+      "isActive": true
+    }
+  ],
+  "goals": [
+    {
+      "id": "goal_001",
+      "title": "Complete Calculus Course",
+      "description": "Finish all calculus chapters before midterm",
+      "subjectId": "math_101",
+      "targetDate": "2024-02-15T00:00:00.000Z",
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "targetHours": 50,
+      "currentHours": 15,
+      "isCompleted": false,
+      "type": "time_based"
+    }
+  ],
+  "exams": [
+    {
+      "id": "exam_001",
+      "title": "Calculus Midterm",
+      "subjectId": "math_101",
+      "examDate": "2024-02-20T09:00:00.000Z",
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "description": "Covers derivatives and integrals",
+      "location": "Room 101, Math Building",
+      "isCompleted": false,
+      "result": null
+    }
+  ],
+  "userStats": {
+    "totalXP": 250,
+    "currentLevel": 1,
+    "currentStreak": 5,
+    "longestStreak": 12,
+    "lastStudyDate": "2024-01-15T00:00:00.000Z",
+    "totalStudyTime": 350,
+    "totalSessions": 15,
+    "pomodoroSessions": 10,
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "unlockedAchievements": ["first_session", "early_bird", "streak_3"]
+  },
+  "achievements": [
+    {
+      "id": "first_session",
+      "title": "Getting Started",
+      "description": "Complete your first study session",
+      "iconName": "play_circle",
+      "xpReward": 25,
+      "category": "general",
+      "isUnlocked": true,
+      "unlockedAt": "2024-01-01T10:00:00.000Z",
+      "requirements": {"sessions": 1}
+    },
+    {
+      "id": "early_bird",
+      "title": "Early Bird",
+      "description": "Study before 8 AM",
+      "iconName": "wb_sunny",
+      "xpReward": 50,
+      "category": "time",
+      "isUnlocked": true,
+      "unlockedAt": "2024-01-05T07:30:00.000Z",
+      "requirements": {"hour_before": 8}
+    },
+    {
+      "id": "streak_3",
+      "title": "Consistent Learner",
+      "description": "Maintain a 3-day study streak",
+      "iconName": "local_fire_department",
+      "xpReward": 75,
+      "category": "streak",
+      "isUnlocked": true,
+      "unlockedAt": "2024-01-10T20:00:00.000Z",
+      "requirements": {"streak": 3}
+    }
+  ],
+  "settings": {
+    "notifications_enabled": true,
+    "streak_reminders": true,
+    "exam_reminders": true,
+    "achievement_notifications": true,
+    "dark_mode": false,
+    "last_backup_date": "2024-01-15T00:00:00.000Z"
+  }
+}
